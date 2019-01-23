@@ -1,0 +1,44 @@
+<html>
+<head>
+  <title>Web_Scraper</title>
+
+  <style>
+  body{background-color: lightblue}
+
+  form {
+    position: static;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+
+  #email_input{
+    width:40%;
+    height:40px;
+    font-size: 30px;
+    font-weight: bold;
+
+  }
+
+  #submit_button{
+    width:20%;
+    height:40px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  </style>
+
+
+</head>
+<body>
+<form action='./views/Retrieved_Data.html'  method='POST' name='collect_email'>
+<p>Please input a valid email:</p>
+<input id='email_input' type='email' name='email' required='required'>
+<input id='submit_button' type='submit' value='Search'>
+</form>
+</body>
+</html>
